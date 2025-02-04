@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Tailwind CSS classes */
+*{
+    font-family: "Poppins", serif;
+}
