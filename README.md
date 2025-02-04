@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Udhaar Book
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based financial tracking application for managing personal loans and debts ("Udhaar" means credit/loan in Urdu).
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Track money borrowed and lent
+- Real-time balance calculation
+- Search records by name
+- Filter transactions by type (Borrowed/Lent)
+- Responsive design with dark mode
+- MongoDB integration
 
-### `npm start`
+## MERN Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- MongoDB
+- Express.js
+- React.js
+- Node.js
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+- Node.js
+- MongoDB
+- npm 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone repository:
+```bash
+git clone https://github.com/hassam3080/Udhaar-Book.git
+cd udhaar-book
+```
+or 
+```
+1.1 Simply Download zip:
+1.2 Unzip it:
+1.3 Open terminal in same folder where package.json is located:
+1.4 Run command to download Nodemodules Folder:
+```
+## Command
+``` 
+npm i
+ ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Start Servers:
+```
+npm start
+```
+open a new terminal
+```
+cd Backend
+npm start Server.js
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Add new transaction: Fill form with name, amount, and type
+- Search: Use search bar to find transactions by name
+- Filter: Use dropdown to view "Lia hy" (borrowed) or "Dia hy" (lent)
+- Total balance updates automatically
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Pull requests welcome. For major changes, open issue first.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Freemium 
